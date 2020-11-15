@@ -83,10 +83,18 @@ width: 15%;
     border-radius: 1em;
     margin: 1em;
 }
-
+#calendario{
+    border-radius: 1em;
+}
+h2{
+    font-family: "Verdana";
+    font-weight: normal;
+    text-shadow: 5px, 5px, 5px black;
+    
+}
 #aside{
     height: 90%;
-    width: 30%;
+    width: 25%;
     background-color: white;
     float: right;
     border-radius: 1em;
