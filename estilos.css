@@ -20,7 +20,7 @@ body {
 }
 .twitter-timeline{
 float: right;
-height: 100%;
+
 width: 15%;
 }
 
@@ -56,7 +56,7 @@ width: 15%;
 #navegador{
     height: 6%;
     padding: 5px;
-    background: #005883;;
+    background: #005883;
     border-radius: 1em;
 }
 #header{
@@ -72,7 +72,7 @@ width: 15%;
 }
 #contenido{
     height: 50%;
-    background-color:#005883;;
+    background-color:#005883;
     border-radius: 1em;
 }
 #section{
@@ -89,7 +89,7 @@ width: 15%;
 #autorparrafo{
 text-align: left;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-background-color: #F47920;
+background-color: #5e5854;
 }
 h2{
     font-family: "Verdana";
@@ -102,13 +102,6 @@ h2{
     width: 25%;
     background-color: white;
     float: right;
-    border-radius: 1em;
-    border-color: red;
-    margin: 1em;
-}
-#footer{
-    height: 15%;
-    background-color: #F47920;
     border-radius: 1em;
     margin: 1em;
 }
@@ -141,10 +134,11 @@ h2{
     font-size: 20px;
     border-radius: 4px;
 }
-.but_img{
+#but_img{
     position: relative;    
+    background-color: #005883;
     height: 60px;
-    width: 250px;
+    width: 800px;
     border-radius: 4px;
     text-transform: uppercase;
     color: black;
@@ -156,11 +150,27 @@ h2{
     z-index: 0;
     font-weight: 700;
 }
+#footer{
+
+    background-color: #005883 ;
+    border-radius: 1em;
+    margin: 1em;
+}   
 .container-footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
     width: 100%;
-    background-color: blue;
+    background-color:  #005883;
     margin: 0%;
     padding: 0%;
     color:black;
+    border-radius: 1em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+#perfil{
+    height: 200px;
+    width: 150px;
+    border-radius: 1em;
+}
+
